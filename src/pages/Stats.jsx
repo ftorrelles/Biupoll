@@ -9,7 +9,10 @@ const Stats = () => {
         <>
             <section
                 className="stats"
-                style={{ backgroundImage: `url(${imageStats})` }}
+                style={{
+                    backgroundImage: `url(${imageStats})`,
+                    filter: " brightness(1.2) contrast(1.2)",
+                }}
             >
                 <h4 className="info_stats">
                     Porque los numeros nos respaldan y detras hay historias de

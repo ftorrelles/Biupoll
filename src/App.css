@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 :root {
     --color-1: #1c4c96;
     --color-2: #256edc;
@@ -9,6 +11,10 @@
     --color-8: #84b6f4;
     --color-9: #c4dafa;
     --color-10: #fcffff;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
 }
 ul {
     list-style: none;

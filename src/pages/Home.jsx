@@ -25,7 +25,10 @@ const Home = () => {
         <>
             <section
                 className="home"
-                style={{ backgroundImage: `url(${imageHome})` }}
+                style={{
+                    backgroundImage: `url(${imageHome})`,
+                    filter: " drop-shadow(0 0 0.05rem #ff6600)",
+                }}
             >
                 <div className="home_logo">
                     <img className="img_logo" src="/Biupoll.jpg" alt="" />

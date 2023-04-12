@@ -8,16 +8,16 @@ const About = () => {
                 <Col className="div_info_about" lg={8}>
                     <h2>sobre nosotros</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Earum aspernatur alias ex similique perferendis iste
-                        vitae sequi sit laborum, illum numquam magnam. Ipsa
-                        praesentium eum est enim autem dolorem tempore. Lorem
+                        Somos un equipo creativo, comprometido con las
+                        necesidades tanto de empresas como agencias que
+                        requieran de nuestros servicios, cumpliendo con todos
+                        los lineamientos de calidad brindándoles una asesoría
+                        integral para alcanzar los objetivos propuestos.
                         <br />
                         <br />
-                        ipsum dolor sit amet consectetur adipisicing elit. Earum
-                        aspernatur alias ex similique perferendis iste vitae
-                        sequi sit laborum, illum numquam magnam. Ipsa
-                        praesentium eum est enim autem dolorem tempore.
+                        Nuestra misión es entregar información precisa y
+                        verídica en los tiempos requeridos por nuestros
+                        clientes.
                     </p>
                 </Col>
                 <Col lg={4}>
