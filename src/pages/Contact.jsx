@@ -63,10 +63,10 @@ const Contacts = () => {
                         </div>
                     </Col>
                     <Col style={{ padding: " 0 6rem" }} lg={9}>
-                        <h2 className="titles_contact">
+                        <h4 className="titles_contact">
                             ¿Tienes dudas?¿Quieres saber más información? !deja
                             tu informacion y nos pondremos en contacto contigo¡
-                        </h2>{" "}
+                        </h4>{" "}
                         <form onSubmit={handleSubmit(submit)}>
                             <div className="form_field">
                                 <label htmlFor="name">Nombre</label>

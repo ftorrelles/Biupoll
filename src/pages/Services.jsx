@@ -3,7 +3,12 @@ import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
 import Typewriter from "typewriter-effect";
 import { useState, useEffect } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import ServicesMap from "../compenents/ServicesMap";
+import imgAmericanContinent from "/americanContinent.jpg";
+import imgCallCenter from "/callCenter.jpeg";
+import imgColombia from "/colombia2.jpg";
+import imgTrain from "/train.jpg";
 
 const Services = () => {
     const [isFloating, setIsFloating] = useState(false);
@@ -47,7 +52,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="secondary">
+                                <ListGroup.Item variant="primary">
                                     Si tu marca necesita resultados rápidos, con
                                     gran confiabilidad y con metodologías CATI
                                     (Computer-Assisted Telephone Interviewing)
@@ -81,7 +86,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="secondary">
+                                <ListGroup.Item variant="primary">
                                     Ofrecemos toda la experiencia de{" "}
                                     <strong>más de 10 años</strong> de trabajo
                                     en el área de recolección cuantitativa.
@@ -114,7 +119,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="secondary">
+                                <ListGroup.Item variant="primary">
                                     Las pruebas de productos brindan información
                                     valiosa durante todo el ciclo de vida del
                                     producto , desde su primer concepto.
@@ -151,7 +156,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="secondary">
+                                <ListGroup.Item variant="primary">
                                     Hemos realizado{" "}
                                     <strong>más de 50 proyectos</strong> de
                                     recolección bajo la modalidad de cliente
@@ -184,7 +189,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="secondary">
+                                <ListGroup.Item variant="primary">
                                     Llevamos a cabo rigurosas búsquedas que nos
                                     permitan contar con los perfiles que las
                                     investigaciones de nuestros clientes
@@ -211,45 +216,49 @@ const Services = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                <div className="services_info">
-                    <h3>Como lo hacemos</h3>
-                    <div className="services_item">
-                        <p>
-                            Contamos con cobertura en 28 de los 32 Departamentos
-                            de nuestro pais para campo presencial
-                        </p>
-                        <img src="cobertura.jpeg" alt="cobertura" />
-                    </div>
-                    <div className="services_item">
-                        <p>
-                            Realizamos control de calidad y entrevistas
-                            telefonicas mediante nuestro call center ubicado en
-                            la ciudad de Bogota D.C
-                        </p>
-                        <img src="cobertura.jpeg" alt="cobertura" />
-                    </div>
-                    <div className="services_item">
-                        <p>
-                            Formando nuevo talento dispuesto a hacer equipo con
-                            nosotros.
-                        </p>
-                        <img src="cobertura.jpeg" alt="cobertura" />
-                    </div>
-                    <div className="services_item">
-                        <p>
-                            Realizando estudios propios para generar nuestro
-                            panel de hábitos de consumo.
-                        </p>
-                        <img src="cobertura.jpeg" alt="cobertura" />
-                    </div>
-                    <div className="services_item">
-                        <p>
-                            No olvidando que la calidad humana es parte
-                            fundamental en nuestra familia BIUPOLL.
-                        </p>
-                        <img src="cobertura.jpeg" alt="cobertura" />
-                    </div>
-                </div>
+                <hr />
+                <h2>Como lo hacemos</h2>
+                <ServicesMap />
+                <hr />
+                <Container>
+                    <Row xs={1} md={2} lg={2}>
+                        <Col lg={4}>
+                            <div className="div_img_about">
+                                <img src={imgCallCenter} alt="call center" />
+                                <div className="img-overlay"></div>
+                            </div>
+                        </Col>
+                        <Col className="div_info_about" lg={8}>
+                            <h3>Call center</h3>
+                            <p>
+                                Realizamos control de calidad y entrevistas
+                                telefonicas mediante nuestro call center ubicado
+                                en la ciudad de Bogota D.C
+                            </p>
+                            <div
+                                style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                }}
+                                className={`floating-button-container ${
+                                    isFloating ? "floating" : ""
+                                }`}
+                            >
+                                <a
+                                    href="https://www.google.com/maps/place/Cra.+53f+%234-10,+Bogot%C3%A1,+Colombia/@4.6191299,-74.1198713,17.25z/data=!4m5!3m4!1s0x8e3f99519274dd35:0x9a2857adcb89ed7b!8m2!3d4.6191373!4d-74.117351?hl=es"
+                                    target="_blank"
+                                >
+                                    <Button
+                                        className="floating-button"
+                                        variant="primary"
+                                    >
+                                        Ubicación
+                                    </Button>
+                                </a>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </section>
         </>
     );

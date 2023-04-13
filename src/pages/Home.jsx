@@ -20,7 +20,6 @@ const Home = () => {
             clearInterval(intervalId);
         };
     }, []);
-    // filter: " drop-shadow(0 0 0.05rem #ff6600)",
     return (
         <>
             <section

@@ -51,11 +51,14 @@ const NavBar = () => {
                                     Estadisticas
                                 </NavDropdown.Item>
                                 <NavDropdown.Item as={Link} to="/pollster">
-                                    Trabaja encuestando
+                                    Trabaja con nosotros
+                                </NavDropdown.Item>
+                                <NavDropdown.Item as={Link} to="/testimonials">
+                                    Testimonios
                                 </NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item as={Link} to="/contact">
-                                    Formulario de contacto
+                                    Contáctanos
                                 </NavDropdown.Item>
                             </NavDropdown>
                         </Nav>

@@ -10,8 +10,9 @@ import Feature from "ol/Feature";
 import Point from "ol/geom/Point";
 import { fromLonLat } from "ol/proj";
 import { Style, Fill, Circle } from "ol/style";
+import { Col, Row } from "react-bootstrap";
 
-function Testimonials() {
+function ServicesMap() {
     useEffect(() => {
         const map = new Map({
             target: "map",
@@ -135,7 +136,43 @@ function Testimonials() {
         };
     }, []);
 
-    return <div id="map" style={{ width: "400px", height: "500px" }}></div>;
+    return (
+        <>
+            <section className="map">
+                <Row xs={1} md={2} lg={2}>
+                    <Col className="div_info_about" lg={8}>
+                        <h3>Presencia en 15 paises</h3>
+                        <p>
+                            Brindamos cobertura en Venezuela, Costa Rica,
+                            Colombia, Republica Dominicana, Puerto Rico, Mexico,
+                            Guatemala, Honduras, Salvador, Nicaragua, Ecuador,
+                            Peru, Brasil, Bolivia y Argentina
+                        </p>
+                    </Col>
+                    <Col
+                        style={{
+                            backgroundColor: "#256edc",
+                            padding: "10px",
+                            borderRadius: "10px",
+                            position: "relative",
+                            height: "70vh",
+                        }}
+                        lg={4}
+                    >
+                        <div
+                            id="map"
+                            className="child-container"
+                            style={{
+                                position: "absolute",
+                                width: "95%",
+                                height: "95%",
+                            }}
+                        ></div>
+                    </Col>
+                </Row>
+            </section>
+        </>
+    );
 }
 
-export default Testimonials;
+export default ServicesMap;
