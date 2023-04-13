@@ -1,5 +1,5 @@
 import React from "react";
-import imageHome from "/home.jpg";
+import imageHome from "/home4.jpeg";
 import Button from "react-bootstrap/Button";
 import { useState, useEffect } from "react";
 import About from "./About";
@@ -20,14 +20,13 @@ const Home = () => {
             clearInterval(intervalId);
         };
     }, []);
-
+    // filter: " drop-shadow(0 0 0.05rem #ff6600)",
     return (
         <>
             <section
                 className="home"
                 style={{
                     backgroundImage: `url(${imageHome})`,
-                    filter: " drop-shadow(0 0 0.05rem #ff6600)",
                 }}
             >
                 <div className="home_logo">

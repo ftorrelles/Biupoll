@@ -43,8 +43,8 @@ h2 {
 .home_logo {
     /* Estilo para el texto dentro de la sección home */
     display: flex;
-    background-color: rgba(255, 255, 255, 0.616);
-    color: var(--color-1);
+    background-color: rgba(0, 0, 0, 0.521);
+    color: var(--color-10);
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -57,6 +57,7 @@ h2 {
     transform: translate(-50%, -50%);
     width: 70%;
     margin: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .home_logo .img_logo {
     width: 40%;
@@ -67,7 +68,7 @@ h2 {
 /*--- floating buttons ---*/
 
 .floating-button {
-    background-color: var(--color-5);
+    background-color: var(--color-2);
     margin: 20px;
     border: none;
     color: white;
@@ -165,6 +166,13 @@ h2 {
     flex-direction: column;
     gap: 2rem;
 }
+/* .services_info{
+} */
+.services_item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 /* -- pollster */
 
 .pollster {

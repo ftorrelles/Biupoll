@@ -21,7 +21,7 @@ const Services = () => {
         <>
             <section className="services">
                 <div>
-                    <h3>Nuestros servicios.. </h3>
+                    <h3>Nuestros servicios y soluciones </h3>
                     <h2 style={{ color: "#1c4c96" }}>
                         <Typewriter
                             options={{
@@ -211,6 +211,45 @@ const Services = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
+                <div className="services_info">
+                    <h3>Como lo hacemos</h3>
+                    <div className="services_item">
+                        <p>
+                            Contamos con cobertura en 28 de los 32 Departamentos
+                            de nuestro pais para campo presencial
+                        </p>
+                        <img src="cobertura.jpeg" alt="cobertura" />
+                    </div>
+                    <div className="services_item">
+                        <p>
+                            Realizamos control de calidad y entrevistas
+                            telefonicas mediante nuestro call center ubicado en
+                            la ciudad de Bogota D.C
+                        </p>
+                        <img src="cobertura.jpeg" alt="cobertura" />
+                    </div>
+                    <div className="services_item">
+                        <p>
+                            Formando nuevo talento dispuesto a hacer equipo con
+                            nosotros.
+                        </p>
+                        <img src="cobertura.jpeg" alt="cobertura" />
+                    </div>
+                    <div className="services_item">
+                        <p>
+                            Realizando estudios propios para generar nuestro
+                            panel de hábitos de consumo.
+                        </p>
+                        <img src="cobertura.jpeg" alt="cobertura" />
+                    </div>
+                    <div className="services_item">
+                        <p>
+                            No olvidando que la calidad humana es parte
+                            fundamental en nuestra familia BIUPOLL.
+                        </p>
+                        <img src="cobertura.jpeg" alt="cobertura" />
+                    </div>
+                </div>
             </section>
         </>
     );
