@@ -41,9 +41,9 @@ const Services = () => {
                 <Accordion defaultActiveKey="0" flush>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                            <i className="bx bxs-phone-call"></i>
-                            Estudios telefónicos
-                            <i className="bx bxs-phone-call"></i>
+                            <h5 style={{ color: "#1c4c96" }}>
+                                Estudios telefónicos
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
@@ -75,9 +75,9 @@ const Services = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>
-                            <i className="bx bx-clipboard"></i>
-                            Estudios en Campo
-                            <i className="bx bx-clipboard"></i>
+                            <h5 style={{ color: "#1c4c96" }}>
+                                Estudios en Campo
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
@@ -108,8 +108,9 @@ const Services = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="2">
                         <Accordion.Header>
-                            <i className="bx bx-coffee-togo"></i>Pruebas de
-                            Producto<i className="bx bx-coffee-togo"></i>
+                            <h5 style={{ color: "#1c4c96" }}>
+                                Pruebas de Producto
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
@@ -144,8 +145,9 @@ const Services = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                         <Accordion.Header>
-                            <i className="bx bx-cool"></i>Cliente incógnito
-                            <i className="bx bx-cool"></i>
+                            <h5 style={{ color: "#1c4c96" }}>
+                                Cliente incógnito
+                            </h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
@@ -178,8 +180,7 @@ const Services = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>
-                            <i className="bx bxs-user-check"></i>Reclutamientos
-                            <i className="bx bxs-user-check"></i>
+                            <h5 style={{ color: "#1c4c96" }}>Reclutamientos</h5>
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
