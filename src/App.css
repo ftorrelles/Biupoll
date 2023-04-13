@@ -170,7 +170,7 @@ h2 {
 } */
 .services_item {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
 }
 
 /* -- pollster */
