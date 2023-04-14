@@ -142,12 +142,21 @@ function ServicesMap() {
                 <Row xs={1} md={2} lg={2}>
                     <Col className="div_info_about" lg={8}>
                         <h3>Presencia en 15 paises</h3>
+                        <p>Brindamos cobertura en</p>
+                        <strong>
+                            Colombia, Venezuela, Costa Rica, Republica
+                            Dominicana, Puerto Rico, Mexico, Guatemala,
+                            Honduras, Salvador, Nicaragua, Ecuador, Peru,
+                            Brasil, Bolivia y Argentina
+                        </strong>
+                        <br />
+                        <h3>Cobertura en Colombia</h3>
                         <p>
-                            Brindamos cobertura en Venezuela, Costa Rica,
-                            Colombia, Republica Dominicana, Puerto Rico, Mexico,
-                            Guatemala, Honduras, Salvador, Nicaragua, Ecuador,
-                            Peru, Brasil, Bolivia y Argentina
+                            Contamos con cobertura en
+                            <strong> 28 de los 32 Departamentos</strong> de
+                            nuestro pais para campo presencial
                         </p>
+                        <strong></strong>
                     </Col>
                     <Col
                         style={{

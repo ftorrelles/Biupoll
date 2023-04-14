@@ -8,11 +8,13 @@ function Footer() {
                 <div className="footer_container">
                     <div className="footer-content">
                         <h3 style={{ textAlign: "center" }}>
-                            <strong>Biupoll</strong>{" "}
+                            <a href="/#">
+                                <strong>Biupoll</strong>
+                            </a>
                         </h3>
                     </div>
                     <div className="footer-content">
-                        <h3 style={{ textAlign: "center" }}>Social</h3>
+                        <h3 style={{ textAlign: "center" }}>Redes sociales</h3>
                         <div className="div_icons_contact">
                             <a
                                 href="https://www.linkedin.com/in/francisco-torrelles-227771209/"

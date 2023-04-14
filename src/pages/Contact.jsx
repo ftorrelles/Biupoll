@@ -62,7 +62,7 @@ const Contacts = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col style={{ padding: " 0 6rem" }} lg={9}>
+                    <Col className="col_contact_form" lg={9}>
                         <h4 className="titles_contact">
                             ¿Tienes dudas?¿Quieres saber más información? !deja
                             tu informacion y nos pondremos en contacto contigo¡
