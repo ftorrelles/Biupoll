@@ -1,5 +1,5 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
-import ModalDepartments from "./modalDepartments";
+import ModalDepartments from "./ModalDepartments";
 import { useState } from "react";
 import imgCallAndCob from "/callAndCob.jpg";
 
