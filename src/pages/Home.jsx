@@ -8,11 +8,11 @@ import Services from "./Services";
 import Team from "./Team";
 import Pollster from "./Pollster";
 import Deparments from "../compenents/Deparments";
-// import CallCenter from "../compenents/CallCenter";
+
 import ServicesMap from "../compenents/ServicesMap";
 import ServicesCards from "../compenents/ServicesCards";
 import Typewriter from "typewriter-effect";
-import { Col, Container, Row } from "react-bootstrap";
+
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -62,7 +62,7 @@ const Home = () => {
             </section>
             <About />
             <Deparments />
-            {/* <CallCenter /> */}
+
             <ServicesMap />
             <ServicesCards />
             <div style={{ padding: "2rem" }} className="effect">
