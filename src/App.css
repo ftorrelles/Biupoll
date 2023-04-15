@@ -125,6 +125,9 @@ h3 {
 }
 
 .div_info_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 2rem;
 }
 .child-container {
