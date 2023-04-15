@@ -150,6 +150,11 @@ h3 {
 .card-shadow {
     box-shadow: 0px 4px 8px rgba(253, 251, 251, 0.2);
 }
+/* -- effect text home */
+.effect {
+    padding: 2rem 6rem;
+}
+
 /* -- stats -- */
 
 .stats {
@@ -440,6 +445,9 @@ textarea {
     .container_card {
         padding: 1rem 2rem;
     }
+    .effect {
+        padding: 2rem 4rem;
+    }
     .stats {
         height: 90vh;
     }
@@ -506,6 +514,9 @@ textarea {
     }
     .div_info_map {
         padding: 0rem;
+    }
+    .effect {
+        padding: 2rem 2rem;
     }
     .section_team {
         padding: 2rem 2rem;

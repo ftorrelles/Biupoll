@@ -65,7 +65,7 @@ const Home = () => {
 
             <ServicesMap />
             <ServicesCards />
-            <div style={{ padding: "2rem" }} className="effect">
+            <div className="effect">
                 <h4 style={{ color: "black", padding: "2rem 0" }}>
                     La calidad humana es parte fundamental en nuestra familia
                     BIUPOLL
@@ -84,6 +84,7 @@ const Home = () => {
                     />
                 </h5>
             </div>
+            <br />
             <Stats />
             <Services />
             <Pollster />

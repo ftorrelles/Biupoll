@@ -5,6 +5,8 @@ const ServicesCards = () => {
     return (
         <>
             <div className="container">
+                <hr />
+                <br />
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <div className="col mb-4">
                         <Card
