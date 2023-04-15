@@ -9,7 +9,7 @@ import Stats from "./pages/Stats";
 import Team from "./pages/Team";
 import Testimonials from "./pages/Testimonials";
 import Pollster from "./pages/Pollster";
-import Footer from "./compenents/footer";
+import Footer from "./compenents/Footer";
 
 function App() {
     return (
