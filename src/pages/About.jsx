@@ -12,12 +12,11 @@ const About = () => {
                         necesidades tanto de empresas como agencias que
                         requieran de nuestros servicios, cumpliendo con todos
                         los lineamientos de calidad brindándoles una asesoría
-                        integral para alcanzar los objetivos propuestos.
+                        integral para alcanzar los objetivos propuestos
                         <br />
                         <br />
-                        Nuestra misión es entregar información precisa y
-                        verídica en los tiempos requeridos por nuestros
-                        clientes.
+                        Entregamos información precisa, verídica y confiable en
+                        los tiempos requeridos por nuestros clientes.
                     </p>
                 </Col>
                 <Col lg={4}>

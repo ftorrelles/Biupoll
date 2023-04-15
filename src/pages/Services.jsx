@@ -1,14 +1,10 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
-import Typewriter from "typewriter-effect";
+// import Typewriter from "typewriter-effect";
 import { useState, useEffect } from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import ServicesMap from "../compenents/ServicesMap";
-import imgAmericanContinent from "/americanContinent.jpg";
-import imgCallCenter from "/callCenter.jpeg";
-import imgColombia from "/colombia2.jpg";
-import imgTrain from "/train.jpg";
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Services = () => {
     const [isFloating, setIsFloating] = useState(false);
@@ -26,8 +22,8 @@ const Services = () => {
         <>
             <section className="services">
                 <div>
-                    <h3>Nuestros servicios y soluciones </h3>
-                    <h2 style={{ color: "#1c4c96" }}>
+                    <h3>Nuestros servicios</h3>
+                    {/* <h2 style={{ color: "#1c4c96" }}>
                         <Typewriter
                             options={{
                                 strings: [
@@ -40,7 +36,7 @@ const Services = () => {
                                 loop: true,
                             }}
                         />
-                    </h2>
+                    </h2> */}
                 </div>
 
                 <Accordion defaultActiveKey="0" flush>
@@ -52,7 +48,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="primary">
+                                <ListGroup.Item variant="light">
                                     Si tu marca necesita resultados rápidos, con
                                     gran confiabilidad y con metodologías CATI
                                     (Computer-Assisted Telephone Interviewing)
@@ -70,7 +66,11 @@ const Services = () => {
                                             isFloating ? "floating" : ""
                                         }`}
                                     >
-                                        <Button variant="primary">
+                                        <Button
+                                            as={Link}
+                                            to="/contact"
+                                            variant="light"
+                                        >
                                             Contactanos
                                         </Button>
                                     </div>
@@ -86,7 +86,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="primary">
+                                <ListGroup.Item variant="light">
                                     Ofrecemos toda la experiencia de{" "}
                                     <strong>más de 10 años</strong> de trabajo
                                     en el área de recolección cuantitativa.
@@ -103,7 +103,11 @@ const Services = () => {
                                             isFloating ? "floating" : ""
                                         }`}
                                     >
-                                        <Button variant="primary">
+                                        <Button
+                                            as={Link}
+                                            to="/contact"
+                                            variant="light"
+                                        >
                                             Contactanos
                                         </Button>
                                     </div>
@@ -119,7 +123,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="primary">
+                                <ListGroup.Item variant="light">
                                     Las pruebas de productos brindan información
                                     valiosa durante todo el ciclo de vida del
                                     producto , desde su primer concepto.
@@ -140,7 +144,11 @@ const Services = () => {
                                             isFloating ? "floating" : ""
                                         }`}
                                     >
-                                        <Button variant="primary">
+                                        <Button
+                                            as={Link}
+                                            to="/contact"
+                                            variant="light"
+                                        >
                                             Contactanos
                                         </Button>
                                     </div>
@@ -156,7 +164,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="primary">
+                                <ListGroup.Item variant="light">
                                     Hemos realizado{" "}
                                     <strong>más de 50 proyectos</strong> de
                                     recolección bajo la modalidad de cliente
@@ -175,7 +183,11 @@ const Services = () => {
                                             isFloating ? "floating" : ""
                                         }`}
                                     >
-                                        <Button variant="primary">
+                                        <Button
+                                            as={Link}
+                                            to="/contact"
+                                            variant="light"
+                                        >
                                             Contactanos
                                         </Button>
                                     </div>
@@ -189,7 +201,7 @@ const Services = () => {
                         </Accordion.Header>
                         <Accordion.Body>
                             <ListGroup variant="flush">
-                                <ListGroup.Item variant="primary">
+                                <ListGroup.Item variant="light">
                                     Llevamos a cabo rigurosas búsquedas que nos
                                     permitan contar con los perfiles que las
                                     investigaciones de nuestros clientes
@@ -207,7 +219,11 @@ const Services = () => {
                                             isFloating ? "floating" : ""
                                         }`}
                                     >
-                                        <Button variant="primary">
+                                        <Button
+                                            as={Link}
+                                            to="/contact"
+                                            variant="primary"
+                                        >
                                             Contactanos
                                         </Button>
                                     </div>
@@ -216,49 +232,6 @@ const Services = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
-                <hr />
-                <h2>Como lo hacemos</h2>
-                <ServicesMap />
-                <hr />
-                <Container>
-                    <Row xs={1} md={2} lg={2}>
-                        <Col lg={4}>
-                            <div className="div_img_about">
-                                <img src={imgCallCenter} alt="call center" />
-                                <div className="img-overlay"></div>
-                            </div>
-                        </Col>
-                        <Col className="div_info_about" lg={8}>
-                            <h3>Call center</h3>
-                            <p>
-                                Realizamos control de calidad y entrevistas
-                                telefonicas mediante nuestro call center ubicado
-                                en la ciudad de Bogota D.C
-                            </p>
-                            <div
-                                style={{
-                                    display: "flex",
-                                    justifyContent: "center",
-                                }}
-                                className={`floating-button-container ${
-                                    isFloating ? "floating" : ""
-                                }`}
-                            >
-                                <a
-                                    href="https://www.google.com/maps/place/Cra.+53f+%234-10,+Bogot%C3%A1,+Colombia/@4.6191299,-74.1198713,17.25z/data=!4m5!3m4!1s0x8e3f99519274dd35:0x9a2857adcb89ed7b!8m2!3d4.6191373!4d-74.117351?hl=es"
-                                    target="_blank"
-                                >
-                                    <Button
-                                        className="floating-button"
-                                        variant="primary"
-                                    >
-                                        Ubicación
-                                    </Button>
-                                </a>
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
             </section>
         </>
     );

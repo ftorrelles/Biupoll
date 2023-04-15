@@ -53,9 +53,9 @@ const NavBar = () => {
                                 <NavDropdown.Item as={Link} to="/pollster">
                                     Trabaja con nosotros
                                 </NavDropdown.Item>
-                                <NavDropdown.Item as={Link} to="/testimonials">
+                                {/* <NavDropdown.Item as={Link} to="/testimonials">
                                     Testimonios
-                                </NavDropdown.Item>
+                                </NavDropdown.Item> */}
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item as={Link} to="/contact">
                                     Contáctanos

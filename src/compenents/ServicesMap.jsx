@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
@@ -140,31 +140,23 @@ function ServicesMap() {
         <>
             <section className="map">
                 <Row xs={1} md={2} lg={2}>
-                    <Col className="div_info_about" lg={8}>
+                    <Col className="div_info_map" lg={8}>
                         <h3>Presencia en 15 paises</h3>
                         <p>Brindamos cobertura en</p>
-                        <strong>
-                            Colombia, Venezuela, Costa Rica, Republica
-                            Dominicana, Puerto Rico, Mexico, Guatemala,
-                            Honduras, Salvador, Nicaragua, Ecuador, Peru,
-                            Brasil, Bolivia y Argentina
-                        </strong>
-                        <br />
-                        <h3>Cobertura en Colombia</h3>
                         <p>
-                            Contamos con cobertura en
-                            <strong> 28 de los 32 Departamentos</strong> de
-                            nuestro pais para campo presencial
+                            <strong>
+                                Colombia, Venezuela, Costa Rica, Republica
+                                Dominicana, Puerto Rico, Mexico, Guatemala,
+                                Honduras, Salvador, Nicaragua, Ecuador, Peru,
+                                Brasil, Bolivia y Argentina
+                            </strong>
                         </p>
-                        <strong></strong>
                     </Col>
                     <Col
                         style={{
-                            backgroundColor: "#256edc",
-                            padding: "10px",
-                            borderRadius: "10px",
                             position: "relative",
-                            height: "70vh",
+                            height: "50vh",
+                            boxShadow: " 0 8px 16px 0 rgba(0, 0, 0, 0.2)",
                         }}
                         lg={4}
                     >
@@ -173,8 +165,8 @@ function ServicesMap() {
                             className="child-container"
                             style={{
                                 position: "absolute",
-                                width: "95%",
-                                height: "95%",
+                                width: "100%",
+                                height: "100%",
                             }}
                         ></div>
                     </Col>
