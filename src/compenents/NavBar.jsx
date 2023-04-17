@@ -35,13 +35,13 @@ const NavBar = () => {
                             >
                                 Servicios
                             </Nav.Link>
-                            <Nav.Link
+                            {/* <Nav.Link
                                 style={{ color: "#1c4c96" }}
                                 as={Link}
                                 to="/team"
                             >
                                 Equipo
-                            </Nav.Link>
+                            </Nav.Link> */}
                             <NavDropdown
                                 style={{ color: "#1c4c96" }}
                                 title="Descubre"

@@ -91,7 +91,7 @@ const Home = () => {
             <Stats />
             <Services />
             <Pollster />
-            <Team />
+            {/* <Team /> */}
         </>
     );
 };

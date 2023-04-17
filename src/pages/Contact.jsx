@@ -2,15 +2,46 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { Button, Col, Row } from "react-bootstrap";
 
+import axios from "../utils/axios";
+import Notification from "../compenents/Notification";
+
 const Contacts = () => {
     const { register, handleSubmit, reset } = useForm();
-    const [infoForm, setInfoForm] = useState("");
+    // const [infoForm, setInfoForm] = useState("");
+
+    // const submit = (data) => {
+    //     setInfoForm(data);
+    //     reset();
+    // };
+    // console.log(infoForm);
+
+    const [notification, setNotification] = useState({
+        show: false,
+        variant: "",
+        message: "",
+    });
 
     const submit = (data) => {
-        setInfoForm(data);
+        // setInfoForm(data);
         reset();
+        axios
+            .post("/emails/contact", data)
+            .then(() =>
+                setNotification({
+                    show: true,
+                    variant: "success",
+                    message: "Message sent!",
+                })
+            )
+            .catch(() =>
+                setNotification({
+                    show: true,
+                    variant: "danger",
+                    message: "There was an error",
+                })
+            );
     };
-    console.log(infoForm);
+
     return (
         <>
             <section className="contact">
@@ -49,16 +80,16 @@ const Contacts = () => {
                                 <i className="bx bxl-linkedin"></i>
                             </a>
                             <a
+                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                target="_blank"
+                            >
+                                <i className="bx bxl-whatsapp"></i>
+                            </a>
+                            <a
                                 href="https://www.facebook.com/francisco.alejandro.524"
                                 target="_blank"
                             >
                                 <i className="bx bxl-facebook-circle"></i>
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
-                                target="_blank"
-                            >
-                                <i className="bx bxl-twitter"></i>
                             </a>
                         </div>
                     </Col>
@@ -82,7 +113,7 @@ const Contacts = () => {
                                 <input
                                     type="text"
                                     id="phone"
-                                    placeholder="nombre y apellido"
+                                    placeholder="numero telefonico"
                                     {...register("phone", { required: true })}
                                 />
                             </div>
@@ -114,6 +145,12 @@ const Contacts = () => {
                     </Col>
                 </Row>
             </section>
+            <Notification
+                {...notification}
+                handleClose={() =>
+                    setNotification({ ...notification, show: false })
+                }
+            />
         </>
     );
 };

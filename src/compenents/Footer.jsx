@@ -23,16 +23,16 @@ function Footer() {
                                 <i className="bx bxl-linkedin"></i>
                             </a>
                             <a
+                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                target="_blank"
+                            >
+                                <i className="bx bxl-whatsapp"></i>
+                            </a>
+                            <a
                                 href="https://www.facebook.com/francisco.alejandro.524"
                                 target="_blank"
                             >
                                 <i className="bx bxl-facebook-circle"></i>
-                            </a>
-                            <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
-                                target="_blank"
-                            >
-                                <i className="bx bxl-twitter"></i>
                             </a>
                         </div>
                     </div>

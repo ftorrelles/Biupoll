@@ -5,6 +5,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Deparments from "../compenents/Deparments";
+import ServicesMap from "../compenents/ServicesMap";
 
 const Services = () => {
     const [isFloating, setIsFloating] = useState(false);
@@ -232,6 +234,7 @@ const Services = () => {
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
+                <Deparments />
             </section>
         </>
     );
