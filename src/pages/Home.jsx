@@ -8,11 +8,9 @@ import Services from "./Services";
 import Team from "./Team";
 import Pollster from "./Pollster";
 import Deparments from "../compenents/Deparments";
-
 import ServicesMap from "../compenents/ServicesMap";
 import ServicesCards from "../compenents/ServicesCards";
 import Typewriter from "typewriter-effect";
-
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -36,9 +34,14 @@ const Home = () => {
                 }}
             >
                 <div className="home_logo">
-                    <img className="img_logo" src="/Biupoll.jpg" alt="" />
+                    <img className="img_logo" src="/logo4.png" alt="logo" />
+                    <img
+                        className="img_logo-mobile"
+                        src="/logo2.png"
+                        alt="logo"
+                    />
                     <div>
-                        <p style={{ padding: "10px" }}>
+                        <p style={{ padding: "10px 10px 0 10px" }}>
                             Convierte datos en decisiones: Nuestro enfoque
                             analítico te proporciona información valiosa para
                             tomar decisiones informadas y estratégicas

@@ -51,12 +51,12 @@ h3 {
     align-items: center;
     font-size: 20px;
     border-radius: 20px;
-    font-weight: bold;
+    /* font-weight: bold; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 80%;
     margin: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
@@ -64,6 +64,10 @@ h3 {
     width: 40%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.home_logo .img_logo-mobile {
+    display: none;
 }
 
 /*--- floating buttons ---*/
@@ -435,8 +439,18 @@ textarea {
         font-size: 1rem;
     }
     .home_logo {
-        width: 82%;
+        width: 85%;
         font-size: 17px;
+    }
+    .home_logo .img_logo {
+        display: none;
+    }
+
+    .home_logo .img_logo-mobile {
+        display: block;
+        width: 40%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
     }
 
     .map {
@@ -495,13 +509,20 @@ textarea {
 /* Estilos para versión de tablet */
 @media (max-width: 768px) {
     .home_logo {
-        /* flex-direction: column; */
-        width: 95%;
+        flex-direction: column;
+        width: 50%;
         font-size: 1rem;
         margin: 0;
     }
     .home_logo .img_logo {
-        width: 60%;
+        display: block;
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+    .home_logo .img_logo-mobile {
+        display: none;
     }
 
     .div_info_about {
