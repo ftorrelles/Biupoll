@@ -29,14 +29,14 @@ const Contacts = () => {
                 setNotification({
                     show: true,
                     variant: "success",
-                    message: "Message sent!",
+                    message: "Mensaje enviado!",
                 })
             )
             .catch(() =>
                 setNotification({
                     show: true,
                     variant: "danger",
-                    message: "There was an error",
+                    message: "upps hubo un error",
                 })
             );
     };
@@ -52,44 +52,56 @@ const Contacts = () => {
                         <ul style={{ padding: "0" }}>
                             <li>
                                 <span style={{ color: "#1c4c96" }}>
-                                    Cede Principal:{" "}
+                                    Sede Principal:{" "}
                                 </span>
-                                Colombia
+                                <a
+                                    style={{ color: "black" }}
+                                    href="https://www.google.com/maps/place/Cra.+53f+%234-10,+Bogot%C3%A1,+Colombia/@4.6191299,-74.1198713,17.25z/data=!4m5!3m4!1s0x8e3f99519274dd35:0x9a2857adcb89ed7b!8m2!3d4.6191373!4d-74.117351?hl=es"
+                                    target="_blank"
+                                >
+                                    Bogota Cra 53f 4-10
+                                </a>
                             </li>
                             <li>
                                 <span style={{ color: "#1c4c96" }}>
                                     Email:{" "}
                                 </span>
-                                Biupoll@gmail.com
+                                contacto@biupoll.com.co
                             </li>
                             <li>
                                 <span style={{ color: "#1c4c96" }}>
                                     telefonos:
                                 </span>
-                                +57 3134890987
+                                <a
+                                    style={{ color: "black" }}
+                                    href="https://api.whatsapp.com/message/LOR4BMDYHZ3GJ1?autoload=1&app_absent=0"
+                                    target="_blank"
+                                >
+                                    +57 3058088280
+                                </a>
                             </li>
                         </ul>
                         <h6>Puedes ver nuestras resdes sociales</h6>
 
                         <div className="div_icons_contact">
                             <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                href="https://www.linkedin.com/in/biupoll-sas-4971a1273/"
                                 target="_blank"
                             >
                                 <i className="bx bxl-linkedin"></i>
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                href="https://api.whatsapp.com/message/LOR4BMDYHZ3GJ1?autoload=1&app_absent=0"
                                 target="_blank"
                             >
                                 <i className="bx bxl-whatsapp"></i>
                             </a>
-                            <a
-                                href="https://www.facebook.com/francisco.alejandro.524"
+                            {/* <a
+                                href=""
                                 target="_blank"
                             >
                                 <i className="bx bxl-facebook-circle"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </Col>
                     <Col className="col_contact_form" lg={9}>

@@ -17,23 +17,23 @@ function Footer() {
                         <h3 style={{ textAlign: "center" }}>Redes sociales</h3>
                         <div className="div_icons_contact">
                             <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                href="https://www.linkedin.com/in/biupoll-sas-4971a1273/"
                                 target="_blank"
                             >
                                 <i className="bx bxl-linkedin"></i>
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
+                                href="https://api.whatsapp.com/message/LOR4BMDYHZ3GJ1?autoload=1&app_absent=0"
                                 target="_blank"
                             >
                                 <i className="bx bxl-whatsapp"></i>
                             </a>
-                            <a
-                                href="https://www.facebook.com/francisco.alejandro.524"
+                            {/* <a
+                                href=""
                                 target="_blank"
                             >
                                 <i className="bx bxl-facebook-circle"></i>
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className="footer-content">

@@ -14,8 +14,13 @@ const ServicesCards = () => {
                             text="black"
                             className="shadow card-hover card-shadow"
                         >
-                            <Card.Header style={{ backgroundColor: "white" }}>
-                                Capacitaciones
+                            <Card.Header
+                                style={{
+                                    backgroundColor: "white",
+                                    color: "#0303b5",
+                                }}
+                            >
+                                <strong>Capacitaciones</strong>
                             </Card.Header>
                             <Card.Body>
                                 <Card.Text>
@@ -32,8 +37,13 @@ const ServicesCards = () => {
                             text="black"
                             className="shadow card-hover card-shadow"
                         >
-                            <Card.Header style={{ backgroundColor: "white" }}>
-                                Estudios propios
+                            <Card.Header
+                                style={{
+                                    backgroundColor: "white",
+                                    color: "#0303b5",
+                                }}
+                            >
+                                <strong>Estudios propios</strong>
                             </Card.Header>
                             <Card.Body>
                                 <Card.Text>
@@ -49,8 +59,13 @@ const ServicesCards = () => {
                             text="black"
                             className="shadow card-hover card-shadow"
                         >
-                            <Card.Header style={{ backgroundColor: "white" }}>
-                                Estrategia
+                            <Card.Header
+                                style={{
+                                    backgroundColor: "white",
+                                    color: "#0303b5",
+                                }}
+                            >
+                                <strong>Estrategia</strong>
                             </Card.Header>
                             <Card.Body>
                                 <Card.Text>
@@ -67,8 +82,13 @@ const ServicesCards = () => {
                             text="black"
                             className="shadow card-hover card-shadow"
                         >
-                            <Card.Header style={{ backgroundColor: "white" }}>
-                                Tecnología
+                            <Card.Header
+                                style={{
+                                    backgroundColor: "white",
+                                    color: "#0303b5",
+                                }}
+                            >
+                                <strong>Tecnología</strong>
                             </Card.Header>
                             <Card.Body>
                                 <Card.Text>

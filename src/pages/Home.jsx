@@ -70,8 +70,10 @@ const Home = () => {
             <ServicesCards />
             <div className="effect">
                 <h4 style={{ color: "black", padding: "2rem 0" }}>
-                    La calidad humana es parte fundamental en nuestra familia
-                    BIUPOLL
+                    <strong>
+                        "La calidad humana es parte fundamental en nuestra
+                        familia BIUPOLL"
+                    </strong>
                 </h4>
                 <h5 style={{ color: "#1c4c96" }}>
                     <Typewriter

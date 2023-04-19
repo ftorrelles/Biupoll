@@ -69,7 +69,7 @@ const Services = () => {
                                         <Button
                                             as={Link}
                                             to="/contact"
-                                            variant="light"
+                                            variant="primary"
                                         >
                                             Contactanos
                                         </Button>
@@ -106,7 +106,7 @@ const Services = () => {
                                         <Button
                                             as={Link}
                                             to="/contact"
-                                            variant="light"
+                                            variant="primary"
                                         >
                                             Contactanos
                                         </Button>
@@ -147,7 +147,7 @@ const Services = () => {
                                         <Button
                                             as={Link}
                                             to="/contact"
-                                            variant="light"
+                                            variant="primary"
                                         >
                                             Contactanos
                                         </Button>
@@ -186,7 +186,7 @@ const Services = () => {
                                         <Button
                                             as={Link}
                                             to="/contact"
-                                            variant="light"
+                                            variant="primary"
                                         >
                                             Contactanos
                                         </Button>
