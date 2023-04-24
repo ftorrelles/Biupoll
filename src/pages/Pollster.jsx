@@ -34,9 +34,17 @@ const Pollster = () => {
                             isFloating ? "floating" : ""
                         }`}
                     >
-                        <Button className="floating-button" variant="primary">
-                            Quiero ser encuestador
-                        </Button>
+                        <a
+                            href="https://forms.gle/bUun8QVeF1tEb8DW8"
+                            target="_blank"
+                        >
+                            <Button
+                                className="floating-button"
+                                variant="primary"
+                            >
+                                Quiero ser encuestador
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>

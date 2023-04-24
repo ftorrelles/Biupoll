@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const About = () => {
     return (
-        <Container>
+        <Container className="container_about">
             <Row xs={1} md={2} lg={2}>
                 <Col className="div_info_about" lg={8}>
                     <h2>sobre nosotros</h2>
@@ -21,7 +21,7 @@ const About = () => {
                 </Col>
                 <Col lg={4}>
                     <div className="div_img_about">
-                        <img src="/about4.png" alt="sobre nosotros" />
+                        <img src="/a.jpeg" alt="sobre nosotros" />
                         <div className="img-overlay"></div>
                     </div>
                 </Col>

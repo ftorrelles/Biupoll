@@ -102,6 +102,10 @@ h3 {
     }
 }
 /* -- about -- */
+.container_about {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
 .div_info_about {
     display: flex;
     flex-direction: column;
