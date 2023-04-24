@@ -22,9 +22,7 @@ const Pollster = () => {
         >
             <div className="pollster_info">
                 <div>
-                    <p>
-                        Quieres ser parte de nuestra familia de encuestadores???
-                    </p>
+                    <p>Quieres ser parte de nuestro equipo de trabajo???</p>
                     <div
                         style={{
                             display: "flex",
@@ -42,7 +40,7 @@ const Pollster = () => {
                                 className="floating-button"
                                 variant="primary"
                             >
-                                Quiero ser encuestador
+                                Inscribirme
                             </Button>
                         </a>
                     </div>

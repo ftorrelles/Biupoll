@@ -84,7 +84,8 @@ const Home = () => {
                             ],
                             autoStart: true,
                             loop: true,
-                            typeSpeed: 25,
+                            typeSpeed: 50,
+                            backDelay: 1000,
                         }}
                     />
                 </h5>
