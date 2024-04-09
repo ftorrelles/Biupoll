@@ -17,7 +17,7 @@ import ServicesMap from "../compenents/ServicesMap";
 import ServicesCards from "../compenents/ServicesCards";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
-import ContentServices from "../compenents/contentServices";
+import ContentServices from "../compenents/ContentServices.jsx";
 import ValuePreposition from "../compenents/ValuePreposition";
 import PhotoGallery from "../compenents/PhotoGallery";
 import ContentContact from "../compenents/ContentContact";
