@@ -120,7 +120,7 @@ const services = [
   },
 ];
 
-const ContentServices2 = () => {
+const ContentServices = () => {
   //logica libreria react-intersection-observer
   const [ref, inView] = useInView({
     threshold: 0.2,
@@ -171,4 +171,4 @@ const ContentServices2 = () => {
   );
 };
 
-export default ContentServices2;
+export default ContentServices;
