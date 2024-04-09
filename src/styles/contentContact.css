@@ -1,0 +1,41 @@
+.contact-section {
+  background-color: #ffffff;
+  padding: 50px 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contact-info ul {
+  list-style: none;
+}
+
+.contact-item {
+  color: #143a6d;
+  font-weight: bold;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+.contact-item p {
+  margin: 0;
+}
+/* ---- media query----- */
+
+@media (max-width: 992px) {
+}
+/* Estilos para versión de tablet */
+@media (max-width: 768px) {
+  .contact-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+/* Estilos para versión móvil */
+@media (max-width: 480px) {
+}
