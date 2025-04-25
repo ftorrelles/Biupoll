@@ -1,0 +1,203 @@
+/* :root {
+  --color-light: #fcffff;
+  --color_base: #143a6d;
+  --color-accent: #1e5a99;
+  --card-bg: #ffffff;
+  --card-bg-dark: #eef4fa;
+  --text-dark: #1a1a1a;
+  --text-light: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+.why-bg {
+  background-color: var(--color_base);
+  color: var(--text-light);
+  padding: 5rem 2rem 0 2rem;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.white-bg {
+  background-color: var(--color-light);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.section-title {
+  font-weight: 800;
+  margin-bottom: 3rem;
+  color: inherit;
+  position: relative;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 1.5rem;
+  padding: 2.5rem 2rem;
+  max-width: 320px;
+  flex: 1 1 280px;
+  text-align: center;
+  box-shadow: 0 8px 25px var(--shadow);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.card-dark {
+  background: var(--card-bg-dark);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--color-accent);
+}
+
+.card i {
+  font-size: 3.2rem;
+  color: var(--color-accent);
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: var(--color_base);
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.card p {
+  color: var(--text-dark);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  overflow: hidden;
+  line-height: 0;
+  transform: translateY(1px);
+}
+
+.wave-bottom svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-bottom path {
+  fill: var(--color-light);
+} */
+
+.why-bg {
+  background-color: var(--color_base);
+  color: var(--text-light);
+  padding: 5rem 2rem 7rem 2rem;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.white-bg {
+  background-color: var(--color-light);
+  padding: 5rem 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* Cambios de color para los títulos */
+.why-bg .section-title {
+  color: #ffffff;
+}
+
+.white-bg .section-title {
+  color: var(--color_base);
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 2px solid var(--color_base);
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  max-width: 320px;
+  flex: 1 1 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-dark {
+  background: #f5f9ff;
+  border: none;
+}
+
+.card i {
+  font-size: 2.5rem;
+  color: var(--color_base);
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: var(--color-accent);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: var(--text-dark);
+  font-size: 1rem;
+}
+
+/* ✨ Efecto de sombra al hacer hover */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.wave-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  line-height: 0;
+  z-index: 0;
+}
+
+.wave-bottom svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.wave-bottom path {
+  fill: var(--color-light);
+}

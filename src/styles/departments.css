@@ -1,0 +1,20 @@
+/* -- coverage -- */
+.coverage {
+  min-height: 100vh;
+  padding: 3rem 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coverage_title {
+  color: var(--color_base);
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.coverage_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

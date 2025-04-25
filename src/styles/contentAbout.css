@@ -1,0 +1,33 @@
+.container_about {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.div_info_about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.div_img_about img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {
+  .container_about {
+    text-align: center;
+  }
+  .div_info_about {
+    padding: 2rem;
+    gap: 1rem;
+  }
+  .div_img_about img {
+    margin-bottom: 2rem;
+  }
+}

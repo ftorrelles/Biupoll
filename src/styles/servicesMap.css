@@ -1,0 +1,35 @@
+/* map-services */
+
+.map {
+  min-height: 100vh;
+  padding: 3rem 6rem;
+}
+
+.div_info_map {
+  display: flex;
+  /* align-items: center; */
+  padding: 2rem;
+}
+.child-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ---- media query----- */
+
+@media (max-width: 992px) {
+  .map {
+    padding: 3rem 3rem;
+  }
+}
+/* Estilos para versión de tablet */
+@media (max-width: 768px) {
+  .map {
+    padding: 3rem 2rem;
+  }
+  .div_info_map {
+    padding: 0rem;
+  }
+}

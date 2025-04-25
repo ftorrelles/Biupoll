@@ -1,0 +1,91 @@
+.footer {
+  background: var(--color_base);
+  color: var(--text-light);
+  backdrop-filter: blur(10px);
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 -4px 10px rgba(255, 255, 255, 0.1);
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.footer-logo {
+  margin: auto;
+}
+
+.footer-links {
+  margin: 1rem 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 1rem;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 3px solid transparent;
+}
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-links a.active {
+  color: var(--color-blue-light);
+  border-bottom: 3px solid var(--color-blue-light);
+}
+
+.footer-links a:hover {
+  color: var(--color-blue-light);
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-icon {
+  font-size: 3rem;
+  color: var(--color-light);
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: var(--color-blue-light);
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .footer-title {
+    font-size: 1.5rem;
+  }
+
+  .footer-description {
+    font-size: 0.9rem;
+  }
+
+  .footer-links a {
+    font-size: 1rem;
+  }
+
+  .footer-socials {
+    gap: 1.5rem; /* Aumenta el espacio entre íconos en pantallas pequeñas */
+  }
+
+  .social-icon {
+    font-size: 2rem; /* Hace los íconos más grandes en móvil */
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+  }
+}
