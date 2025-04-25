@@ -2,7 +2,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import ModalDepartments from "./ModalDepartments";
 import { useState } from "react";
 import imgCoverage from "/fondoCol2.png";
-import "../styles/Departments.css";
+import "../styles/departments.css";
 
 const Departments = () => {
   //modal
