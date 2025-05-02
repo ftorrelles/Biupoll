@@ -58,7 +58,7 @@ function MainLayout({ children }) {
 // Floating WhatsApp logo
 function FloatingLogo() {
   const whatsappURL =
-    "https://wa.me/573113118867?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita";
+    "https://wa.me/573106417839?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita";
   return (
     <div
       className="floating-logo"

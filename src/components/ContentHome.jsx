@@ -1,29 +1,3 @@
-// import React from "react";
-// import "../styles/home.css";
-// import "animate.css";
-
-// const ContentHome = () => {
-//   return (
-//     <section className="home-hero">
-//       <div className="hero-content animate__animated animate__fadeInLeft">
-//         <h1>Investigación que impulsa tu estrategia</h1>
-//         <p>
-//           Transformamos datos en decisiones. Te ayudamos a entender tu mercado,
-//           tus clientes y tus oportunidades de crecimiento.
-//         </p>
-//         <a href="#contacto" className="cta-button">
-//           Contáctanos
-//         </a>
-//       </div>
-//       <div className="hero-image animate__animated animate__fadeInRight">
-//         <img src="imgHome.jpg" alt="Investigación de Mercado" />
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default ContentHome;
-
 import React from "react";
 import "../styles/home.css";
 
@@ -42,7 +16,7 @@ const ContentHome = () => {
           construir estrategias sólidas basadas en datos reales.
         </p>
         <a
-          href="https://wa.me/573113118867?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita"
+          href="https://wa.me/573106417839?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita"
           target="_blank"
           rel="noopener noreferrer"
           className="cta-alt-button"

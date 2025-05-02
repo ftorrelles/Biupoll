@@ -32,7 +32,7 @@ const BusinessCard = () => {
             Visita nuestro sitio web
           </Link>
           <a
-            href="https://wa.me/573113118867?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita"
+            href="https://wa.me/573106417839?text=Hola%20Biupoll,%20me%20gustaría%20agendar%20una%20cita"
             target="_blank"
             className="card-business-button"
           >
